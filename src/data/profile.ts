@@ -29,13 +29,12 @@ export interface LinkedInData {
 
 // 🔗 Links — reemplazar con los de Juan Pablo
 export const LINKS = {
-  linkedin: 'https://www.linkedin.com/in/JUAN_PABLO_LINKEDIN/',  // TODO
-  github: 'https://github.com/JUAN_PABLO_GITHUB',                  // TODO
-  instagram: 'https://www.instagram.com/JUAN_PABLO_INSTAGRAM/',    // TODO
-  spotify: '',                                                  // TODO (opcional)
+  linkedin: 'https://www.linkedin.com/in/juan-pablo-maya-7859ab266/',  // TODO
+  github: 'https://github.com/Juan-maya935',                  // TODO
+  instagram: 'https://www.instagram.com/jpme_15/',    // TODO
 } as const
 
-export const EMAIL = 'JUAN_PABLO_EMAIL@gmail.com'  // TODO
+export const EMAIL = 'jpme2015.jpm@gmail.com'  // TODO
 
 export const SECTIONS = [
   { id: 'about', label: 'Sobre mí', key: '1' },
@@ -91,7 +90,7 @@ export const CORE_SKILLS: string[] = [
 ]
 
 export const SOFT_SKILLS: string[] = [
-  'Vigilancia de seguridad',
+  'Toma de decisiones basada en datos.',
   'Análisis de riesgos',
   'Trabajo en equipo',
   'Resolución de problemas',
@@ -99,7 +98,8 @@ export const SOFT_SKILLS: string[] = [
   'Liderazgo en campo',
   'Comunicación técnica',
   'Pensamiento crítico',
-  'Adaptabilidad',
+  'Adaptabilidad y gestión del cambio.',
+  'Proactividad y aprendizaje continuo.'
 ]
 
 // 📝 Bio — Juan Pablo Maya

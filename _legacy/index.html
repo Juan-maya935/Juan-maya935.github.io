@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
-  <title>César Reyes · Perfil</title>
-  <meta name="description" content="Sitio personal de César Reyes: perfil, experiencia, proyectos, stack y contacto." />
+  <title>Juan Pablo Maya · Perfil</title>
+  <meta name="description" content="Sitio personal de Juan Pablo Maya: perfil, experiencia, proyectos, stack y contacto." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -1361,7 +1361,7 @@
   <div class="app-skeleton" id="top">
     <header class="app-header">
       <a class="brand" href="#top" aria-label="Inicio">
-        <span class="brand__title">CÉSAR REYES</span>
+        <span class="brand__title">JUAN PABLO MAYA</span>
         <span class="brand__tag">DATA · IA · AUTOMATION</span>
       </a>
 
@@ -1729,20 +1729,20 @@
               <section class="page" id="contact" data-page>
                 <h2 class="section-title">Contacto</h2>
                 <p class="muted">
-                  Email: <span id="email-text">cesar.cesarreyes25@gmail.com</span>
+                  Email: <span id="email-text">jpme2015.jpm@gmail.com</span>
                 </p>
 
                 <div class="divider"></div>
 
                 <div class="item">
                   <h4>Mensaje rápido</h4>
-                  <p class="muted">“Hola César, vi tu perfil y me gustaría hablar sobre…”</p>
+                  <p class="muted">“Hola Juan Pablo, vi tu perfil y me gustaría hablar sobre…”</p>
                 </div>
 
                 <div class="divider"></div>
 
                 <p class="muted" style="text-align: center; opacity: 0.9">
-                  © <span id="year"></span> César Reyes
+                  © <span id="year"></span> Juan Pablo Maya
                 </p>
               </section>
 
@@ -2050,13 +2050,12 @@
     $("#year").textContent = new Date().getFullYear();
 
     let LINKS = {
-      linkedin: "https://www.linkedin.com",
-      github: "https://github.com/caesar-dat-com",
-      instagram: "https://www.instagram.com/caesar__palace/?__pwa=1",
-      spotify: "https://open.spotify.com/user/31hu2kdccm2vguqtnndm5ecgc2jy?si=fdb28cbfe7b0495b",
+      linkedin: "https://www.linkedin.com/in/juan-pablo-maya-7859ab266/",
+      github: "https://github.com/Juan-maya935",
+      instagram: "https://www.instagram.com/jpme_15/",
     };
 
-    const EMAIL = "cesar.cesarreyes25@gmail.com";
+    const EMAIL = "jpme2015.jpm@gmail.com";
 
     // DANE (hombres) ~ 74,48 años. (usado como estimación para el Memento Mori)
     const LIFE_EXPECTANCY_YEARS_CO_MALE = 74.48;
@@ -2068,8 +2067,8 @@
       "Enfocado en automatización, datos e IA, construyo sistemas útiles, medibles y trazables en entornos reales.";
 
     const fallback = {
-      firstName: "César",
-      lastName: "Reyes",
+      firstName: "Juan Pablo",
+      lastName: "Maya",
       headline: "Data · IA · Automatización",
       location: "Colombia",
       publicProfileUrl: LINKS.linkedin,
@@ -2587,7 +2586,7 @@
     }
 
     function buildCvHtml(data) {
-      const fullName = `${data.firstName || "César"} ${data.lastName || "Reyes"}`.trim();
+      const fullName = `${data.firstName || "Juan Pablo"} ${data.lastName || "Maya"}`.trim();
       const headline = (data.headline || "Data · IA · Automatización").trim();
       const location = (data.location || "Colombia").trim();
       const summary = (data.summary || defaultSummary).trim();
@@ -3044,7 +3043,7 @@
       const data = await loadLinkedIn();
       loadedProfile = data;
 
-      $("#name").textContent = `${data.firstName || ""} ${data.lastName || ""}`.trim() || "César Reyes";
+      $("#name").textContent = `${data.firstName || ""} ${data.lastName || ""}`.trim() || "Juan Pablo Maya";
       $("#headline").textContent = (data.headline || "Data · IA · Automatización").replace(/junior/gi, "").trim();
       $("#location").textContent = data.location || "Colombia";
 

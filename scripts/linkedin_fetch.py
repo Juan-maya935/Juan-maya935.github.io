@@ -5,8 +5,8 @@ from datetime import datetime
 from linkedin_api import Linkedin
 
 # ✅ PON AQUÍ tu PUBLIC_ID real (la parte después de /in/ en tu URL)
-# Ejemplo: https://www.linkedin.com/in/cesar-reyes-123456789/  -> "cesar-reyes-123456789"
-PUBLIC_ID = "cesar-reyes-8a60622b2"
+# Ejemplo: https://www.linkedin.com/in/cjuan-pablo-maya-7859ab266/  -> "juan-pablo-maya-7859ab266"
+PUBLIC_ID = "juan-pablo-maya-7859ab266"
 
 
 def safe_str(x):

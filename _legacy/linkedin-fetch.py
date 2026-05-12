@@ -13,7 +13,7 @@ try:
     print("Autenticación exitosa con LinkedIn.")
 
     # Obtén los datos del perfil
-    profile = linkedin.get_profile("cesar-reyes-8a60622b2")  # Tu nombre público de LinkedIn
+    profile = linkedin.get_profile("juan-pablo-maya-7859ab266")  # Tu nombre público de LinkedIn
     print("Datos del perfil obtenidos exitosamente.")
 
     # Extrae información relevante
