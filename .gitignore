@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.next/
+.claude/
+*.log
+config.py
+.DS_Store
