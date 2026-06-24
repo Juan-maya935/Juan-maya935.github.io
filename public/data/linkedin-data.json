@@ -1,90 +1,21 @@
 {
   "firstName": "Juan Pablo",
   "lastName": "Maya",
-  "headline": "POSTOBON S.A.",
+  "headline": "Data · IA · Automatización",
   "location": "Cali, Valle del Cauca",
-  "summary": "Ingeniero de Datos e IA con experiencia en automatización industrial y desarrollo de software. En POSTOBON S.A. diseño e implemento soluciones low-code que centralizan procesos operativos para +2,000 usuarios en planta. Estudiante de último año de Ingeniería en Datos e Inteligencia Artificial (UAO), con formación en ML, Big Data, NLP y Computer Vision. Stack: Python · JavaScript · React · SQL · Docker · Airflow · Spark · Git · Power BI. Enfoque: datos trazables, sistemas útiles, resultados medibles.",
+  "summary": "",
   "skills": [
     {
-      "name": "Python"
+      "name": "Innovación, Liderazgo de equipos, Creatividad"
     },
     {
-      "name": "Docker"
-    },
-    {
-      "name": "Git"
-    },
-    {
-      "name": "Kubernetes"
-    },
-    {
-      "name": "SQL"
-    },
-    {
-      "name": "JavaScript"
-    },
-    {
-      "name": "Bases de datos"
-    },
-    {
-      "name": "Node.js"
-    },
-    {
-      "name": "React.js"
-    },
-    {
-      "name": "TypeScript"
-    },
-    {
-      "name": "Apache Airflow"
-    },
-    {
-      "name": "Apache Spark"
-    },
-    {
-      "name": "Machine Learning"
-    },
-    {
-      "name": "Computer Vision"
-    },
-    {
-      "name": "ETL"
-    },
-    {
-      "name": "GitHub"
-    },
-    {
-      "name": "PowerShell"
-    },
-    {
-      "name": "Big Data"
-    },
-    {
-      "name": "Ingeniería de datos"
-    },
-    {
-      "name": "NLP"
-    },
-    {
-      "name": "Innovación"
-    },
-    {
-      "name": "Creatividad"
-    },
-    {
-      "name": "Liderazgo de equipos"
-    },
-    {
-      "name": "Resolución de problemas"
+      "name": "Innovación, Creatividad, Resolución de problemas"
     },
     {
       "name": "Capacidad de análisis"
     },
     {
       "name": "Microsoft Power BI"
-    },
-    {
-      "name": "Trabajo en equipo"
     }
   ],
   "certifications": [
